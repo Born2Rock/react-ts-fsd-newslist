@@ -1,0 +1,37 @@
+.navbar {
+  width: 100%;
+  height: var(--navbar-height);
+  background: var(--inverted-bg-color);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.links,
+.dropdown {
+  margin-left: auto;
+}
+
+.mainLink {
+  margin-right: 15px;
+}
+
+.appName {
+  width: var(--sidebar-width);
+  padding-left: 15px;
+}
+
+.createLink {
+  //margin-left: 10px;
+}
+
+.actions {
+  margin-left: auto;
+}
+
+.notifications {
+  min-height: 150px;
+  max-height: 300px;
+  width: 500px;
+  overflow-y: auto;
+}
